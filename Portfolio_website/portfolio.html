@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dejohn Musyoki | Full-Stack Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  
+    <!--Header-->
+    <header class="site-header page-header">
+      <div class="container">
+        <div class="header-content">
+          <div class="header-text">
+            <h1>My Projects</h1>
+            <p class="subtitle">
+              From concept to code: Projects that reflect my growth as a
+              developer
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Navigation-->
+    <nav class="main-nav" aria-label="main-navigation">
+      <div class="container nav-container">
+        <div class="nav-brand">
+          <span>Dejohn</span>
+        </div>
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="education.html" class="nav-link">Education</a>
+          <a href="skills.html" class="nav-link">Skills</a>
+          <a href="portfolio.html" class="nav-link active">Portfolio</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main Content-->
+    <main class="main-content">
+      <div class="container">
+        <!--Intro-->
+        <section class="projects-intro">
+          <h2>What I've Built</h2>
+          <p>
+            Here are the projects I have worked on so far. Each one represents
+            real skills applied to real problems. More projects are on the way
+            as I continue learning and building.
+          </p>
+        </section>
+
+        <!--Projects Grid-->
+        <section class="projects-section">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <!--Project 1 — Portfolio Website-->
+            <div class="project-card">
+              <div class="project-card-header">
+                <h3 class="project-title">Personal Portfolio Website</h3>
+                <span class="project-status status-complete">Completed</span>
+              </div>
+              <p class="project-description">
+                A responsive multi-page portfolio website built from scratch.
+                Features include a sticky navigation, dark mode toggle, animated
+                skill progress bars, and a consistent design system using CSS
+                custom properties.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Responsive Design</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/Vilainn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  GitHub
+                </a>
+
+                <a href="#" class="project-link project-link-demo">
+                  Live Demo
+                </a>
+              </div>
+            </div>
+
+            <!--Project 2 — Coming Soon-->
+            <div class="project-card project-card-upcoming">
+              <div class="project-card-header">
+                <h3 class="project-title">Next Project</h3>
+                <span class="project-status status-upcoming">Coming Soon</span>
+              </div>
+              <p class="project-description">
+                Currently planning my next project as I continue developing my
+                JavaScript skills. Stay tuned.
+              </p>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">To Be Decided</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link-disabled">In Progress</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Page Navigation-->
+        <div class="page-navigation">
+          <a href="skills.html" class="nav-button prev">← Skills</a>
+          <a href="contact.html" class="nav-button next"> Contact →</a>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Dejohn. All rights reserved.</p>
+        <p class="footer-links">
+          <a
+            href="https://github.com/Vilainn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <a href="contact.html">Contact Me</a>
+        </p>
+      </div>
+    </footer>
+
+    <!--Dark Mode Toggle-->
+    <div class="theme-toggle">
+      <button id="theme-toggle-btn">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-text">Dark Mode</span>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dejohn Musyoki | Full-Stack Software Engineer</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <!--Header-->
+    <header class="site-header page-header">
+      <div class="container">
+        <div class="header-content">
+          <div class="header-text">
+            <h1>Skills & Abilities</h1>
+            <p class="subtitle">
+              Technical abilities, personal strengths & interests
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Mobile navigation-->
+    <nav class="main-nav" aria-label="main-navigation">
+      <div class="container nav-container">
+        <div class="nav-brand">
+          <span>Dejohn</span>
+        </div>
+
+        <!--Hamburger Menu For Mobile-->
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!--Navigation Links-->
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="education.html" class="nav-link">Education</a>
+          <a href="skills.html" class="nav-link active">Skills</a>
+          <a href="portfolio.html" class="nav-link">Portfolio</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main Content-->
+    <main class="main-content">
+      <div class="container">
+        <section class="skills-intro">
+          <h2>My Abilities & Interests</h2>
+          <p>
+            As a Software Engineering student, I'm continuously developing both
+            technical and personal skills. My hobbies and interests complement
+            my academic growth and help maintain a balanced lifestyle.
+          </p>
+        </section>
+        <!--Progress Bars Section-->
+        <section class="technical-skills">
+          <h2>Technical Skills Progress</h2>
+          <div class="skills-progress">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML5</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" data-width="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">CSS</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" data-width="80"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percent">20%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" data-width="20"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Responsive</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="soft-skills-section">
+          <h2>Personal & Soft Skills</h2>
+          <div class="soft-skills-grid">
+            <div class="soft-skill-item">
+              <h3>Problem-Solving</h3>
+              <p>Analytical approach to breaking down complex challenges</p>
+            </div>
+
+            <div class="soft-skill-item">
+              <h3>Teamwork</h3>
+              <p>Collaborative mindset from sports and group projects</p>
+            </div>
+
+            <div class="soft-skill-item">
+              <h3>Time Management</h3>
+              <p>Balancing studies, projects, and personal interests</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="hobbies-section">
+          <h2>Hobbies & Interests</h2>
+          <div class="hobbies-grid">
+            <div class="hobby-item">
+              <h3>Football</h3>
+              <p>
+                Playing football keeps me physically active and teaches valuable
+                lessons in teamwork, strategy, and perseverance.
+              </p>
+            </div>
+
+            <div class="hobby-item">
+              <h3>Gaming</h3>
+              <p>
+                As an avid gamer, I particularly enjoy strategy and FPS games
+                like Call of Duty. Gaming enhances my problem-solving skills and
+                quick decision-making.
+              </p>
+            </div>
+            <div class="hobby-item">
+              <h3>Technology Exploration</h3>
+              <p>
+                Constantly exploring new programming languages, frameworks, and
+                development tools through personal projects.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="page-navigation">
+          <a href="education.html" class="nav-button prev">← Education</a>
+          <a href="portfolio.html" class="nav-button next">Portfolio →</a>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Dejohn. All rights reserved.</p>
+        <p class="footer-links">
+          <a
+            href="https://github.com/Vilainn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <a href="contact.html">Contact Me</a>
+        </p>
+      </div>
+    </footer>
+
+    <!--Dark Mode Toggle-->
+    <div class="theme-toggle">
+      <button id="theme-toggle-btn">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-text">Dark Mode</span>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

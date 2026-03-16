@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dejohn Musyoki | Full-Stack Software Engineer</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+   
+    <!--Header-->
+    <header class="site-header page-header">
+      <div class="container">
+        <div class="header-content">
+          <div class="header-text">
+            <h1>Contact Me</h1>
+            <p class="subtitle">Get in touch or connect with me online</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Mobile navigation-->
+    <nav class="main-nav" aria-label="main-navigation">
+      <div class="container nav-container">
+        <div class="nav-brand">
+          <span>Dejohn</span>
+        </div>
+
+        <!--Hamburger Menu For Mobile-->
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!--Navigation Links-->
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="education.html" class="nav-link">Education</a>
+          <a href="skills.html" class="nav-link">Skills</a>
+          <a href="portfolio.html" class="nav-link">Portfolio</a>
+          <a href="contact.html" class="nav-link active">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main Content-->
+    <main class="main-content">
+      <div class="container">
+        <div class="contact-wrapper">
+          <section class="contact-info">
+            <h2>Contact Details</h2>
+
+            <div class="contact-methods">
+              <div class="contact-item">
+                <h3>Email</h3>
+                <p>infor.masai.org@gmail.com</p>
+                <p class="contact-note">
+                  I typically respond within 24-48 hours
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <h3>GitHub Profile</h3>
+                <p>
+                  <a
+                    href="https://github.com/Vilainn"
+                    target="_blank"
+                    class="external-link"
+                  >
+                    github.com/Vilainn
+                  </a>
+                </p>
+                <p class="contact-note">
+                  View my projects and code repositories
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <h3>Social Media</h3>
+                <p>
+                  <a
+                    href="https://www.tiktok.com/@dejohn_snippetz"
+                    target="_blank"
+                    class="external-link"
+                  >
+                    TikTok: @dejohn_snippetz
+                  </a>
+                </p>
+                <p class="contact-note">Follow for tech tips and content</p>
+              </div>
+
+              <div class="contact-item">
+                <h3>University</h3>
+                <p>Kirinyaga University</p>
+                <p class="contact-note">Software Engineering Student</p>
+              </div>
+            </div>
+          </section>
+
+          <!--Contact Form-->
+          <section class="contact-form-section">
+            <h2>Send Me a Message</h2>
+            <p>
+              Fill out the form and I'll get back to you as soon as possible
+            </p>
+
+            <!--Alert Container-->
+            <div id="alertbox" class="alert-box"></div>
+
+            <form id="contactform" class="contact-form">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Enter your full name"
+                />
+                <div id="nameError" class="error-message"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Enter you email address"
+                />
+                <div id="emailError" class="error-message"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject (Optional)</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="What is your message about?"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  required
+                  placeholder="Type your message here..."
+                  maxlength="500"
+                ></textarea>
+                <div class="char-counter">
+                  <span id="char-count">0</span>/500 characters
+                </div>
+                <div id="messageError" class="error-message"></div>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" class="submit-button">
+                  Send Message
+                </button>
+                <p class="form-note">Fields marked with * are required</p>
+              </div>
+            </form>
+          </section>
+        </div>
+
+        <!--Page Navigation-->
+        <div class="page-navigation">
+          <a href="portfolio.html" class="nav-button prev">← Portfolio</a>
+          <a href="index.html" class="nav-button next"> Back to Home →</a>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Dejohn. All rights reserved.</p>
+        <p class="footer-links">
+          <a
+            href="https://github.com/Vilainn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <a href="contact.html">Contact Me</a>
+        </p>
+      </div>
+    </footer>
+
+    <!--Dark Mode Toggle-->
+    <div class="theme-toggle">
+      <button id="theme-toggle-btn">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-text">Dark Mode</span>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

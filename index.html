@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dejohn Musyoki | Full-Stack Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+      <div class="loader"></div>
+    </div>
+
+    <!--Header-->
+    <header class="site-header">
+      <div class="container">
+        <div class="header-content">
+          <!--Profile Image-->
+          <div class="profile-img-wrapper">
+            <img
+              src="images/PSX_20250426_063043.jpg"
+              alt="Dejohn-Aspiring Full-Stack Software Engineer"
+              class="profile-image"
+              width="150"
+              height="150"
+            />
+          </div>
+          <!--Text Content-->
+          <div class="header-text">
+            <h1>Hello! I'm Dejohn</h1>
+            <p class="subtitle">
+              Aspiring Full-Stack Software Engineer - I build responsive and
+              interactive Web Applications
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Mobile Navigation-->
+    <nav class="main-nav" aria-label="main-navigation">
+      <div class="container nav-container">
+        <div class="nav-brand">
+          <span>Dejohn</span>
+        </div>
+
+        <!--Hamburger Menu For Mobile-->
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!--Nav bar-->
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="education.html" class="nav-link">Education</a>
+          <a href="skills.html" class="nav-link">Skills</a>
+          <a href="portfolio.html" class="nav-link">Portfolio</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main Content Section-->
+    <main class="main-content">
+      <div class="container">
+        <section class="intro-section">
+          <h2>About Me</h2>
+          <p>
+            My name is <strong>Dejohn (John Masai Musyoki)</strong>, a Software
+            Engineering student at Kirinyaga University. This website highlights
+            my educational background, technical-skills, career goals and
+            portfolio projects as I work towards becoming a full-stack Software
+            Engineer. Feel free to explore my work and get in touch.
+          </p>
+
+          <div class="personal-info">
+            <div class="info-item">
+              <h3>Current University</h3>
+              <p>Kirinyaga University</p>
+            </div>
+            <div class="info-item">
+              <h3>Degree Program</h3>
+              <p>Bachelor of Science in Software Engineering</p>
+            </div>
+            <div class="info-item">
+              <h3>Career Goal</h3>
+              <p>Become a successful Software Engineer</p>
+            </div>
+          </div>
+        </section>
+        <section class="interests-section">
+          <h2>My Interests</h2>
+          <div class="interests-grid">
+            <div class="interest-item">
+              <h3>Football</h3>
+              <p>Playing football keeps me active and teaches me teamwork</p>
+            </div>
+            <div class="interest-item">
+              <h3>Gaming</h3>
+              <p>I enjoy playing strategy games like Call of Duty</p>
+            </div>
+            <div class="interest-item">
+              <h3>Technology</h3>
+              <p>Exploring programming and new tech trends</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="quick-links">
+          <h2>Explore My Journey</h2>
+          <div class="links-grid">
+            <a href="education.html" class="page-link">
+              <h3>Education</h3>
+              <p>High school and university journey</p>
+            </a>
+            <a href="skills.html" class="page-link">
+              <h3>Skills</h3>
+              <p>Technical and personal abilities</p>
+            </a>
+            <a href="future.html" class="page-link">
+              <h3>Future</h3>
+              <p>Career goals and aspirations</p>
+            </a>
+            <a href="portfolio.html" class="page-link">
+              <h3>Portfolio</h3>
+              <p>My projects and accomplishments</p>
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Dejohn. All rights reserved.</p>
+        <p class="footer-links">
+          <a
+            href="https://github.com/Vilainn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <a href="contact.html">Contact Me</a>
+        </p>
+      </div>
+    </footer>
+
+    <!--Dark Mode Toggle-->
+    <div class="theme-toggle">
+      <button id="theme-toggle-btn">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-text">Dark Mode</span>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
